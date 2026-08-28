@@ -1,0 +1,76 @@
+# .project metadata for Chaos Mesh
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set project_lead GitHub handle
+# TODO: Add package_managers if distributed via registries
+# TODO: No maintainers found in cncf/foundation project-maintainers.csv — add maintainer handles manually
+
+schema_version: "1.0.0"
+slug: "chaos-mesh"
+name: "Chaos Mesh"
+description: "A Chaos Engineering Platform for Kubernetes"
+type: "project"
+# TODO: Set project lead GitHub handle
+# project_lead: "github-handle"
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#gh-light-mode-only"
+    primary: true
+  - name: "#gh-dark-mode-only"
+  - name: "#project-chaos-mesh"
+
+maturity_log:
+  - phase: "incubating"
+    date: "2020-07-14T00:00:00Z"
+    issue: "https://github.com/cncf/toc/pull/944" # TODO: AUTO-DETECTED — please verify
+
+repositories: # TODO: AUTO-DETECTED primary — please verify
+  - url: "https://github.com/chaos-mesh/chaos-mesh"
+    primary: true
+    # tags: [core, sig-apps] # Optional
+
+website: "https://chaos-mesh.org/"
+
+artwork: "https://landscape.cncf.io/logos/chaos-mesh.svg"
+
+adopters:
+  path: "https://github.com/chaos-mesh/chaos-mesh/blob/master/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "chaos-mesh/chaos-mesh"
+
+social:
+  twitter: "https://twitter.com/chaos_mesh"
+
+security:
+  policy:
+    path: "https://github.com/chaos-mesh/chaos-mesh/blob/master/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/chaos-mesh/chaos-mesh/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/chaos-mesh/chaos-mesh/blob/master/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/chaos-mesh/chaos-mesh/blob/master/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/chaos-mesh/chaos-mesh/blob/master/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/chaos-mesh/chaos-mesh/blob/master/README.md"
+
+landscape:
+  category: "Observability and Analysis"
+  subcategory: "Chaos Engineering"
+
+# CLOMonitor Score: 76/100
+# Documentation: 98 | License: 43 | Best Practices: 74 | Security: 86
