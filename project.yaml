@@ -1,29 +1,30 @@
 # .project metadata for Chaos Mesh
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
 
-# TODO: Set project_lead GitHub handle
 # TODO: Add package_managers if distributed via registries
-# TODO: No maintainers found in cncf/foundation project-maintainers.csv — add maintainer handles manually
 
 schema_version: "1.0.0"
 slug: "chaos-mesh"
 name: "Chaos Mesh"
 description: "A Chaos Engineering Platform for Kubernetes"
 type: "project"
-# TODO: Set project lead GitHub handle
-# project_lead: "github-handle"
-slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
-  - name: "#gh-light-mode-only"
-    primary: true
-  - name: "#gh-dark-mode-only"
+project_lead:
+  - "STRRL"
+  - "g1eny0ung"
+  - "Andrewmatilde"
+slack_channels:
   - name: "#project-chaos-mesh"
+    primary: true
 
 maturity_log:
-  - phase: "incubating"
+  - phase: "sandbox"
     date: "2020-07-14T00:00:00Z"
-    issue: "https://github.com/cncf/toc/pull/944" # TODO: AUTO-DETECTED — please verify
+    issue: "https://github.com/cncf/toc/pull/367"
+  - phase: "incubating"
+    date: "2022-02-16T00:00:00Z"
+    issue: "https://github.com/cncf/toc/pull/683"
 
-repositories: # TODO: AUTO-DETECTED primary — please verify
+repositories:
   - url: "https://github.com/chaos-mesh/chaos-mesh"
     primary: true
     # tags: [core, sig-apps] # Optional
