@@ -31,7 +31,7 @@ repositories:
 
 website: "https://chaos-mesh.org/"
 
-artwork: "https://landscape.cncf.io/logos/chaos-mesh.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/chaosmesh"
 
 adopters:
   path: "https://github.com/chaos-mesh/chaos-mesh/blob/master/ADOPTERS.md"
